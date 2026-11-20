@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "lumen",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-01-01",
+  "kv_namespaces": [
+  //   {
+  //  "binding": "METADATA",
+  // "id": "YOUR_KV_ID_HERE",
+  // },
+    {
+      "binding": "METADATA",
+      "id": "c91ff02aff36434dba2fee110e5dfdb9"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "FILES",
+      "bucket_name": "lumen-files"
+    }
+  ]
+}
