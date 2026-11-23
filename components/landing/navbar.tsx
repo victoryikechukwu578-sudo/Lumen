@@ -10,7 +10,11 @@ export function Navbar() {
           href="/"
           className="flex items-center gap-2 text-lg font-semibold tracking-tight text-white"
         >
-          <img src="/logo.png" alt="" className="size-7" />
+          <img
+            src="/logo.png"
+            alt=""
+            className="size-10 shrink-0 object-contain"
+          />
           Lumen
         </Link>
         <div className="flex items-center gap-3">

@@ -49,7 +49,11 @@ const AppLayoutContent = ({ children }: Readonly<{ children: React.ReactNode }>)
             href="/dashboard"
             className="flex items-center gap-2 text-lg font-semibold tracking-tight"
           >
-            <img src="/logo.png" alt="" className="size-7" />
+            <img
+              src="/logo.png"
+              alt=""
+              className="size-10 shrink-0 object-contain"
+            />
             Lumen
           </Link>
           

@@ -21,6 +21,16 @@ export const metadata: Metadata = {
   title: "Lumen - AI Powered Web App Builder",
   description:
    "Lumen is an AI-Powered Web App Builder that allows you to create stunning web applications effortlessly with its intuitive interface and powerful AI capabilities, you can bring your ideas to life in no time whether you are a developer or a non-technical user, Lumen provides the tools you need to build and develop your web apps with ease.",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+        type: "image/x-icon",
+        sizes: "16x16 32x32 48x48",
+      },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+  },
 };
 
 export const instant = false;
